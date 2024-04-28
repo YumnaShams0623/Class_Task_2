@@ -6,6 +6,7 @@ body{
      background-attachment: fixed;
       margin: 0px;
      padding: 0px;
+     
     
 }
 h1{
@@ -37,7 +38,7 @@ nav{
     justify-content: center;
     margin-top: 100px;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 button{
