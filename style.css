@@ -1,0 +1,62 @@
+body{
+    background-image: url(chair.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+      margin: 0px;
+     padding: 0px;
+    
+}
+h2{
+    font-size: x-large;
+    color: white;
+}
+header{
+    background-color: #726f6f;
+    color: #000000;
+    height: 60px;
+    margin: 0px;
+    display: inline;
+}
+nav{
+    padding-right: 20px;
+    text-align: right;
+   word-spacing: 20px;
+   border-bottom: green;
+   text-transform: uppercase;
+   color: white;
+   text-decoration: none;
+
+}
+nav:hover{
+    color: green;
+}
+#content{
+    /* padding: 250px;/ */
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 3px solid black;
+    /* width: 140px;
+    height:50px ; */
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+
+}
+button:hover{
+    background-color: cornflowerblue;
+}
+button:active{
+    background-color: red;
+}
