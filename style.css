@@ -8,8 +8,8 @@ body{
      padding: 0px;
     
 }
-h2{
-    font-size: x-large;
+h1{
+    font-size: xx-large;
     color: white;
 }
 header{
@@ -18,20 +18,21 @@ header{
     height: 60px;
     margin: 0px;
     display: inline;
+  
+
 }
 nav{
     padding-right: 20px;
     text-align: right;
-   word-spacing: 20px;
-   border-bottom: green;
-   text-transform: uppercase;
-   color: white;
-   text-decoration: none;
+    word-spacing: 20px;
+    border-bottom: green;
+    text-transform: uppercase;
+
 
 }
-nav:hover{
-    color: green;
-}
+
+
+
 #content{
     /* padding: 250px;/ */
     text-align: center;
@@ -41,22 +42,30 @@ nav:hover{
 }
 
 button{
-    display: block;
-    margin: 0 auto;
+   display: inline; 
+    margin : 0 auto;
     border-radius: 20px;
     border: 3px solid black;
-    /* width: 140px;
-    height:50px ; */
+    width: 140px;
+    height:50px ; 
     font-weight: bold;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
-
-
+  
+   
 }
 button:hover{
     background-color: cornflowerblue;
 }
-button:active{
-    background-color: red;
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin-top: 0px;
+    
 }
+a:focus{
+border-bottom: 5px solid green;
+}
+
